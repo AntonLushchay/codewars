@@ -1,4 +1,4 @@
-/*Discription
+/*Description
 
 "Point reflection" or "point symmetry" is a basic concept in geometry where a given point, P, at a given position relative to a mid-point, Q has a corresponding point, P1, which is the same distance from Q but in the opposite direction.
 
