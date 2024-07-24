@@ -86,14 +86,14 @@ function conjugate(verb) {
         }
     } else if (verb[verb.length - 2] == 'e' && verb[verb.length - 1] == 'r') {
         for (i = 0; i < ARends.length; i++) {
-            verbs.push(verb.substr(0, verb.length - 2) + ARends[i]);
+            verbs.push(verb.substr(0, verb.length - 2) + ERends[i]);
         }
     } else if (verb[verb.length - 2] == 'i' && verb[verb.length - 1] == 'r') {
         for (i = 0; i < ARends.length; i++) {
-            verbs.push(verb.substr(0, verb.length - 2) + ARends[i]);
+            verbs.push(verb.substr(0, verb.length - 2) + IRends[i]);
         }
     }
-    return verbs;
+    return { [verb]: verbs };
 }
 
-console.log(conjugate('caminar'));
+console.log(conjugate('vivir'));
