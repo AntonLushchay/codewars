@@ -15,6 +15,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "bash -c 'git add . && m=$(find . -name \"script.js\" -type f | wc -l) && git commit -m \"+$1 $2kuy. Total: $m\"' --"
   }
 }
