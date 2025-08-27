@@ -17,3 +17,5 @@ solution = (str) => {
 };
 
 console.log(solution('abcsdfsdfdsfd'));
+
+console.log('one two free'.split(/\B/));
