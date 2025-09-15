@@ -3,5 +3,3 @@
 export function evenOrOdd(a: number): string {
     return a % 2 === 0 ? `Even` : `Odd`;
 }
-
-console.log(evenOrOdd(7));
