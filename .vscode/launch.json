@@ -4,7 +4,7 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Debug Jest Tests",
+            "name": "Jest All",
             "program": "${workspaceFolder}/node_modules/.bin/jest",
             "args": ["--runInBand"],
             "console": "integratedTerminal",
@@ -12,6 +12,31 @@
             "windows": {
                 "program": "${workspaceFolder}/node_modules/jest/bin/jest"
             }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Jest Current File",
+            "program": "${workspaceFolder}/node_modules/.bin/jest",
+            "args": ["--runTestsByPath", "${relativeFile}", "--config", "jest.config.js"],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "windows": {
+                "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+            }
+        },
+        {
+            "name": "Debug Current TS File",
+            "type": "node",
+            "request": "launch",
+            "runtimeArgs": [
+                "-r",
+                "ts-node/register"
+            ],
+            "args": [
+                "${file}"
+            ],
+            "console": "integratedTerminal"
         }
     ]
 }
