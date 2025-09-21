@@ -2,7 +2,7 @@
 
 # Check if two arguments are provided
 if [ "$#" -ne 2 ]; then
-    echo "Usage: npm run commit -- <name> <level>"
+    echo "Usage: npm run commit -- <count> <level>"
     exit 1
 fi
 
