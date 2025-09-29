@@ -46,4 +46,4 @@ export function longestConsec(strarr: string[], k: number): string {
     return answer;
 }
 
-console.log(longestConsec(['qwer', 'ewtretryu', 'poioiu', 'zxvhjmmmmn'], 3));
+// console.log(longestConsec(['qwer', 'ewtretryu', 'poioiu', 'zxvhjmmmmn'], 3));

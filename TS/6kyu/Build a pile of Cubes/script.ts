@@ -24,4 +24,4 @@ export function findNb(m: number): number {
     return m === 0 ? count : -1;
 }
 
-// console.log(findNb(40539911473216));
+console.log(findNb(40539911473216));

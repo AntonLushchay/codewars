@@ -29,13 +29,8 @@
             "name": "Debug Current TS File",
             "type": "node",
             "request": "launch",
-            "runtimeArgs": [
-                "-r",
-                "ts-node/register"
-            ],
-            "args": [
-                "${file}"
-            ],
+            "runtimeArgs": ["-r", "ts-node/register"],
+            "args": ["${file}"],
             "console": "integratedTerminal"
         }
     ]
