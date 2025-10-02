@@ -18,3 +18,6 @@ export const positiveSum = (arr: number[]): number => {
         return elem >= 0 ? (acc += elem) : acc;
     }, 0);
 };
+
+// console.log('hi Anastasiya');
+// console.log(positiveSum([1, -2, 3, 4, 5]));
