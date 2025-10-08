@@ -71,4 +71,4 @@ export function solution(number: number): string {
     return result;
 }
 
-// console.log(solution(908));
+// console.log(solution(149));
