@@ -98,4 +98,4 @@ export function interpreter(code: string, tape: string): string {
     return outputArr.join('');
 }
 
-console.log(interpreter('>>>>>[<]*<*!*c>', '1000111100'));
+// console.log(interpreter('>>>>>[<]*<*!*c>', '1000111100'));
