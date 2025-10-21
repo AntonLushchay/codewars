@@ -25,4 +25,4 @@ export const perimeter = (n: number): number => {
     return fibNum.reduce((acc, cur) => acc + cur) * 4;
 };
 
-console.log(perimeter(5));
+// console.log(perimeter(5));

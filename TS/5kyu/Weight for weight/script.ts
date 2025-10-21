@@ -36,4 +36,4 @@ export function orderWeight(strng: string): string {
         .join(' ');
 }
 
-console.log(orderWeight(' 123   321    10 2'));
+// console.log(orderWeight(' 123   321    10 2'));

@@ -11,7 +11,7 @@
 // scramble('cedewaraaossoqqyt', 'codewars') ==> True
 // scramble('katas', 'steak') ==> False
 
-export function scramble1(str1: string, str2: string): boolean {
+export function scramble(str1: string, str2: string): boolean {
     const charCount: Record<string, number> = {};
 
     for (const char of str1) {
@@ -46,7 +46,7 @@ export function scramble1(str1: string, str2: string): boolean {
 //     });
 // }
 
-let s1 = 'abcdefghijklmnopqrstuvwxyz'.repeat(10000);
-let s2 = 'zyxcba'.repeat(9000);
+// let s1 = 'abcdefghijklmnopqrstuvwxyz'.repeat(10000);
+// let s2 = 'zyxcba'.repeat(9000);
 
-console.log(scramble1(s1, s2));
+// console.log(scramble1(s1, s2));
