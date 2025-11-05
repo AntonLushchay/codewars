@@ -26,12 +26,16 @@
             }
         },
         {
-            "name": "Debug Current TS File",
             "type": "node",
             "request": "launch",
+            "name": "Debug Current TS File",
+            "skipFiles": ["<node_internals>/**"],
+            "program": "${file}",
             "runtimeArgs": ["-r", "ts-node/register"],
-            "args": ["${file}"],
-            "console": "integratedTerminal"
+            "sourceMaps": true,
+            "outFiles": ["${workspaceFolder}/**/*.js"],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
         }
     ]
 }
