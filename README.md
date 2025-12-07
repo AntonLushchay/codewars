@@ -2,8 +2,6 @@
 
 ![Status](https://img.shields.io/badge/status-Active-success)
 ![Type](https://img.shields.io/badge/type-Algorithmic-orange)
-![Language](https://img.shields.io/badge/Language-JS%20%2F%20TS-yellow)
-![Profile](https://img.shields.io/badge/CodeWars-Choleric-red)
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
